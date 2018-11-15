@@ -1,0 +1,17 @@
+<section class="row">
+
+  <label class="col" for="product">Product to search
+    <input [(ngModel)]="product" id="product-search" role="text" placeholder="product to search">
+  </label>
+
+  <label class="col" for="friend">Friend to search
+    <input [(ngModel)]="friend" id="friend-search" role="text" placeholder="friends to search">
+  </label>
+
+  <button role="button" (click)="search()">Search</button>
+
+</section>
+
+<section>
+  <app-reviews [results]="results"></app-reviews>
+</section>

@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ReviewsComponent implements OnInit {
 
-  @Input() results: object[];
+  @Input() results: string;
 
   constructor() { }
 

@@ -21,6 +21,5 @@ export class SearchBarComponent implements OnInit {
   search(): void {
     console.log('it works! ' + this.product + ' ' + this.friend);
     this.results = 'it works! ' + this.product + ' ' + this.friend;
-  };
-
+  }
 }
